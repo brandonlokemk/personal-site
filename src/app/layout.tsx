@@ -1,5 +1,5 @@
 // File: app/layout.tsx (Root Layout)
-import { Link } from 'lucide-react';
+import Link from 'next/link'
 import './globals.css';
 import { ReactNode } from 'react';
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         </header>
         <main>{children}</main>
         <footer className="p-4 bg-gray-800 text-white text-center">
-          <p><a href="/Brandon_Resume.pdf "download="Resume.pdf" className="mx-2 hover:underline">Download resume</a></p>
+          <p><a href="/Brandon_Resume.pdf " download="Resume.pdf" className="mx-2 hover:underline">Download resume</a></p>
         </footer>
       </body>
     </html>
