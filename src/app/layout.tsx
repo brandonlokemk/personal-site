@@ -1,4 +1,5 @@
 // File: app/layout.tsx (Root Layout)
+import Link from 'next/link'
 import './globals.css';
 import { ReactNode } from 'react';
 
@@ -13,9 +14,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <header className="p-4 bg-gray-800 text-white text-center">
           <h1 className="text-3xl font-bold">Brandon Loke</h1>
           <nav className="mt-2">
-            <a href="/" className="mx-2 hover:underline">Home</a>
-            <a href="/projects" className="mx-2 hover:underline">Projects</a>
-            <a href="/about" className="mx-2 hover:underline">About Me</a>
+            <Link href="/" className="mx-2 hover:underline">Home</Link>
+            <Link href="/projects" className="mx-2 hover:underline">Projects</Link>
+            <Link href="/about" className="mx-2 hover:underline">About Me</Link>
           </nav>
         </header>
         <main>{children}</main>
