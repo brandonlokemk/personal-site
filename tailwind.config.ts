@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+// import { Raleway } from 'next/font/google';
 
 export default {
     darkMode: ["class"],
