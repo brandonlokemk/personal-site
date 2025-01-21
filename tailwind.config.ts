@@ -25,11 +25,17 @@ export default {
   			},
   			primary: {
   				DEFAULT: 'hsl(var(--primary))',
-  				foreground: 'hsl(var(--primary-foreground))'
+				// DEFAULT: '#F9F1F1',
+  				foreground: 'hsl(var(--primary-foreground))',
+				light: '#F9F1F1',
+				dark: '#F9F1F1'
   			},
   			secondary: {
-  				DEFAULT: 'hsl(var(--secondary))',
-  				foreground: 'hsl(var(--secondary-foreground))'
+  				// DEFAULT: 'hsl(var(--secondary))',
+				DEFAULT: '#2D334E',
+  				foreground: 'hsl(var(--secondary-foreground))',
+				light: '#979FC3',
+				dark: '#2D334E'
   			},
   			muted: {
   				DEFAULT: 'hsl(var(--muted))',
