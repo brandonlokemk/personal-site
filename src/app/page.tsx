@@ -9,16 +9,14 @@ import NavBar from '@/components/NavBar';
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-light-color1 text-light-text dark:bg-dark-color1 dark:text-dark-text">
       <Intro/>
       <div>
         <NavBar className='sticky top-0'/>
         <About/>
         <Projects/>
       </div>
-
-
-    </>
+    </div>
 
   );
 }

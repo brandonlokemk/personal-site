@@ -13,6 +13,22 @@ export default {
 			sans: ['Raleway', 'Arial', 'sans-serif'],
 		  },
   		colors: {
+			light: {
+				color1: '#fdfbf9',
+				color2: '#dcdcdc',
+				accent1: '#347494',
+				accent2: '#f05a59',
+				text: '#453a23',
+				navbar: '#dcdcdc'
+			},
+			dark: {
+				color1: '#20202a',
+				color2: '#23232d',
+				accent1: '#eb3249',
+				accent2: '#459fcf',
+				text: '#d1ccc4',
+				navbar: '#32323f'
+			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -28,7 +44,7 @@ export default {
 				// DEFAULT: '#F9F1F1',
   				foreground: 'hsl(var(--primary-foreground))',
 				light: '#F9F1F1',
-				dark: '#F9F1F1'
+				dark: '#506477'
   			},
   			secondary: {
   				// DEFAULT: 'hsl(var(--secondary))',
