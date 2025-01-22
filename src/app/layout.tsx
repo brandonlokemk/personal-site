@@ -17,11 +17,11 @@ type RootLayoutProps = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className='scroll-smooth scroll-pt-14' suppressHydrationWarning>
       <div className={raleway.className}>
         <ThemeProvider attribute="class" defaultTheme='system' enableSystem disableTransitionOnChange>
           <body className="min-h-screen bg-primary-light dark:bg-primary-dark text-gray-800">
-              <header className="flex flex-row items-center p-4 bg-secondary-light dark:bg-secondary-dark text-white">
+              {/* <header className="flex flex-row items-center p-4 bg-secondary-light dark:bg-secondary-dark text-white">
                 <div className='flex items-center justify-between'>
                   <div className='pr-4'>
                     <Avatar>
@@ -42,9 +42,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
                     <ThemeToggleButton/>
                   </div>
                 </div>                
-              </header>
+              </header> */}
               {/* <main className={open_sans.className}>{children}</main> */}
-              <main>{children}</main>
+              <main className="scroll-smooth">{children}</main>
 
               {/* <footer className="p-4 bg-gray-700 text-white text-center flex flex-row justify-center ">
                 <p><a href="Brandon_Resume.pdf " download="Resume.pdf" className="mx-2 hover:underline">Download resume</a></p>

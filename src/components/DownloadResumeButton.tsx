@@ -1,8 +1,9 @@
 import { Button } from "./ui/button";
 import { FileDown } from "lucide-react"
-export function DownloadResumeButton () {
+
+export function DownloadResumeButton ({ className }: { className?: string }) {
     return (
-        <Button className="" size={"sm"} >
+        <Button className={className} size={"sm"}>
             <FileDown/>
         </Button>
     )
