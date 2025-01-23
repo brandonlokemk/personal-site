@@ -26,8 +26,9 @@ export default {
 				color2: '#23232d',
 				accent1: '#eb3249',
 				accent2: '#459fcf',
-				text: '#d1ccc4',
-				navbar: '#32323f'
+				text: '#f3f6f6',
+				navbar: '#32323f',
+				accent1darker: '#bc283a'
 			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

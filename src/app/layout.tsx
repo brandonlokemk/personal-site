@@ -11,7 +11,7 @@ type RootLayoutProps = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en" className='scroll-smooth scroll-pt-14' suppressHydrationWarning>
+    <html lang="en" className='scroll-smooth' suppressHydrationWarning>
       <div className={raleway.className}>
         <ThemeProvider attribute="class" defaultTheme='system' enableSystem disableTransitionOnChange>
             <body>
