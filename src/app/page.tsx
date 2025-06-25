@@ -14,7 +14,7 @@ export default function Home() {
       <ScrollToTopListener/>
       <Hero/>
       <div> 
-        <NavBar className='sticky top-0'/>
+        <NavBar className='sticky top-0 z-10'/>
         <About/>
         <Projects/>
       </div>

@@ -12,13 +12,11 @@ type RootLayoutProps = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" className='scroll-smooth' suppressHydrationWarning>
-      <div className={raleway.className}>
-        <ThemeProvider attribute="class" defaultTheme='system' enableSystem disableTransitionOnChange>
-            <body>
+        <body className={raleway.className}>
+            <ThemeProvider attribute="class" defaultTheme='dark' enableSystem disableTransitionOnChange>
                 <main>{children}</main>
-            </body>
-        </ThemeProvider>
-      </div>
+            </ThemeProvider>
+        </body>
     </html>
   );
 }
