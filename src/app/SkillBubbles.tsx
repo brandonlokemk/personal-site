@@ -1,9 +1,9 @@
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { TooltipArrow } from "@radix-ui/react-tooltip";
-import { FaPython, FaJsSquare, FaJava, FaHtml5, FaCss3 } from "react-icons/fa"; // Icons from react-icons
+import { FaPython, FaJsSquare, FaJava } from "react-icons/fa"; // Icons from react-icons
 import { BiLogoTypescript } from "react-icons/bi";
 import { BsFiletypeSql } from "react-icons/bs";
-import { IoLogoCss3 } from "react-icons/io5";
+// import { IoLogoCss3 } from "react-icons/io5";
 
 
 
